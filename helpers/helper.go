@@ -71,7 +71,7 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
 
 	var sb strings.Builder
 
-	sb.WriteString(`<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+	sb.WriteString(`<svg width="800" height="320" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
@@ -79,7 +79,7 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
     </linearGradient>
   </defs>
   
-  <rect width="800" height="450" fill="#0d1117" rx="10"/>
+  <rect width="800" height="320" fill="#0d1117" rx="10"/>
   
   <text x="400" y="35" fill="url(#grad)" font-size="24" font-weight="bold" text-anchor="middle" font-family="Arial, sans-serif">
     📊 GitHub Statistics
@@ -123,8 +123,8 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
 
 	leftColumnX := 40
 	rightColumnX := 420
-	startY := 210
-	rowHeight := 20
+	startY := 205
+	rowHeight := 18
 
 	for i, lang := range languages {
 		if i >= 12 {
