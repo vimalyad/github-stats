@@ -43,9 +43,6 @@ func ProcessLanguageStats(stats *UserStats) []LanguageStat {
 
 	var languages []LanguageStat
 	for _, lang := range languageMap {
-		if lang.Name == "HTML" || lang.Name == "CSS" {
-			continue
-		}
 		lang.Percentage = float64(lang.Size) / float64(totalSize) * 100
 		languages = append(languages, *lang)
 	}
@@ -54,8 +51,8 @@ func ProcessLanguageStats(stats *UserStats) []LanguageStat {
 		return languages[i].Size > languages[j].Size
 	})
 
-	if len(languages) > 6 {
-		languages = languages[:6]
+	if len(languages) > 12 {
+		languages = languages[:12]
 	}
 
 	return languages
@@ -82,34 +79,31 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
     </linearGradient>
   </defs>
   
-  <!-- Background -->
   <rect width="500" height="300" fill="#0d1117" rx="10"/>
   
-  <!-- Title -->
-  <text x="250" y="30" fill="url(#grad)" font-size="20" font-weight="bold" text-anchor="middle" font-family="Arial, sans-serif">
+  <text x="250" y="25" fill="url(#grad)" font-size="18" font-weight="bold" text-anchor="middle" font-family="Arial, sans-serif">
     📊 GitHub Statistics
   </text>
-  
-  <!-- Stats -->`)
+  `)
 
 	sb.WriteString(fmt.Sprintf(`
-  <text x="20" y="65" fill="#c9d1d9" font-size="14" font-family="Arial, sans-serif">
-    🎯 Total Contributions: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
+  <text x="20" y="50" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="20" y="90" fill="#c9d1d9" font-size="14" font-family="Arial, sans-serif">
+  <text x="20" y="68" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
     💻 Commits: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="20" y="115" fill="#c9d1d9" font-size="14" font-family="Arial, sans-serif">
-    🔀 Pull Requests: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
+  <text x="20" y="86" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+    🔀 PRs: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="260" y="65" fill="#c9d1d9" font-size="14" font-family="Arial, sans-serif">
-    📦 Repositories: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
+  <text x="260" y="50" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+    📦 Repos: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="260" y="90" fill="#c9d1d9" font-size="14" font-family="Arial, sans-serif">
-    ⭐ Total Stars: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
+  <text x="260" y="68" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+    ⭐ Stars: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>
-  <text x="260" y="115" fill="#c9d1d9" font-size="14" font-family="Arial, sans-serif">
-    🍴 Total Forks: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
+  <text x="260" y="86" fill="#c9d1d9" font-size="12" font-family="Arial, sans-serif">
+    🍴 Forks: <tspan fill="#58a6ff" font-weight="bold">%d</tspan>
   </text>`,
 		cc.ContributionCalendar.TotalContributions,
 		cc.TotalCommitContributions,
@@ -121,34 +115,60 @@ func GenerateSVG(stats *UserStats, languages []LanguageStat) string {
 
 	sb.WriteString(`
   
-  <!-- Languages Section -->
-  <text x="20" y="150" fill="#8b949e" font-size="12" font-weight="bold" font-family="Arial, sans-serif">
+  <line x1="20" y1="100" x2="480" y2="100" stroke="#30363d" stroke-width="1"/>
+  
+  <text x="20" y="118" fill="#8b949e" font-size="11" font-weight="bold" font-family="Arial, sans-serif">
     TOP LANGUAGES
   </text>`)
 
-	yPos := 170
+	leftColumnX := 20
+	rightColumnX := 260
+	startY := 135
+	rowHeight := 14
+
 	for i, lang := range languages {
-		if i >= 6 {
+		if i >= 12 {
 			break
 		}
-		barWidth := lang.Percentage * 4.5
+
+		var xPos int
+		var yPos int
+		if i < 6 {
+			xPos = leftColumnX
+			yPos = startY + (i * rowHeight)
+		} else {
+			xPos = rightColumnX
+			yPos = startY + ((i - 6) * rowHeight)
+		}
+
 		color := lang.Color
 		if color == "" {
 			color = "#858585"
 		}
 
+		barWidth := lang.Percentage * 0.8
+		if barWidth < 3 {
+			barWidth = 3
+		}
+
 		sb.WriteString(fmt.Sprintf(`
-  <text x="20" y="%d" fill="#c9d1d9" font-size="11" font-family="monospace">%s</text>
-  <rect x="130" y="%d" width="%.1f" height="12" fill="%s" rx="2"/>
-  <text x="%.1f" y="%d" fill="#c9d1d9" font-size="10" font-family="monospace">%.1f%%</text>`,
-			yPos, lang.Name,
-			yPos-10, barWidth, color,
-			135+barWidth, yPos, lang.Percentage,
+  <text x="%d" y="%d" fill="#c9d1d9" font-size="9" font-family="monospace">%s</text>
+  <rect x="%d" y="%d" width="%.1f" height="8" fill="%s" rx="1"/>
+  <text x="%d" y="%d" fill="#8b949e" font-size="8" font-family="monospace">%.1f%%</text>`,
+			xPos, yPos, truncateName(lang.Name, 10),
+			xPos+80, yPos-7, barWidth, color,
+			xPos+165, yPos, lang.Percentage,
 		))
-		yPos += 20
 	}
 
 	sb.WriteString("\n</svg>")
 
 	return sb.String()
+}
+
+func truncateName(name string, maxLen int) string {
+	if len(name) <= maxLen {
+		return name
+	}
+	return name[:maxLen-1] + "…"
 }
