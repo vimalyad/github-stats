@@ -6,7 +6,7 @@
       "TotalPullRequestContributions": 6,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1010
+        "TotalContributions": 1008
       }
     },
     "Repositories": {
@@ -366,7 +366,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 503254,
+                "Size": 506345,
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
@@ -1048,7 +1048,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 4870293,
+                "Size": 8735608,
                 "Node": {
                   "Name": "Jupyter Notebook",
                   "Color": "#DA5B0B"
