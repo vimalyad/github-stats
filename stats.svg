@@ -13,16 +13,16 @@
   </text>
   
   <text x="50" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">1066</tspan>
+    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">1068</tspan>
   </text>
   <text x="50" y="105" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    💻 Commits: <tspan fill="#58a6ff" font-weight="bold">1009</tspan>
+    💻 Commits: <tspan fill="#58a6ff" font-weight="bold">1010</tspan>
   </text>
   <text x="50" y="130" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     🔀 PRs: <tspan fill="#58a6ff" font-weight="bold">6</tspan>
   </text>
   <text x="530" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    📦 Repos: <tspan fill="#58a6ff" font-weight="bold">48</tspan>
+    📦 Repos: <tspan fill="#58a6ff" font-weight="bold">49</tspan>
   </text>
   <text x="530" y="105" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     ⭐ Stars: <tspan fill="#58a6ff" font-weight="bold">20</tspan>
@@ -37,8 +37,8 @@
     TOP LANGUAGES
   </text>
   <text x="50" y="205" fill="#c9d1d9" font-size="12" font-family="monospace">Jupyter Not…</text>
-  <rect x="165" y="195" width="134.6" height="12" fill="#DA5B0B" rx="2"/>
-  <text x="355" y="205" fill="#8b949e" font-size="11" font-family="monospace">74.8%</text>
+  <rect x="165" y="195" width="134.5" height="12" fill="#DA5B0B" rx="2"/>
+  <text x="355" y="205" fill="#8b949e" font-size="11" font-family="monospace">74.7%</text>
   <text x="50" y="223" fill="#c9d1d9" font-size="12" font-family="monospace">Java</text>
   <rect x="165" y="213" width="24.7" height="12" fill="#b07219" rx="2"/>
   <text x="355" y="223" fill="#8b949e" font-size="11" font-family="monospace">13.7%</text>
