@@ -1,16 +1,16 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1127,
+      "TotalCommitContributions": 1134,
       "TotalIssueContributions": 54,
       "TotalPullRequestContributions": 48,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1279
+        "TotalContributions": 1286
       }
     },
     "Repositories": {
-      "TotalCount": 53,
+      "TotalCount": 49,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -474,28 +474,6 @@
           "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
-            "Edges": [
-              {
-                "Size": 20056,
-                "Node": {
-                  "Name": "Java",
-                  "Color": "#b07219"
-                }
-              },
-              {
-                "Size": 82794,
-                "Node": {
-                  "Name": "HTML",
-                  "Color": "#e34c26"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
             "Edges": []
           }
         },
@@ -545,21 +523,6 @@
                 "Node": {
                   "Name": "CSS",
                   "Color": "#663399"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
-                "Size": 16244,
-                "Node": {
-                  "Name": "JavaScript",
-                  "Color": "#f1e05a"
                 }
               }
             ]
@@ -662,21 +625,6 @@
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
-                "Size": 3381,
-                "Node": {
-                  "Name": "JavaScript",
-                  "Color": "#f1e05a"
                 }
               }
             ]
@@ -1092,21 +1040,6 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 1247,
-                "Node": {
-                  "Name": "Java",
-                  "Color": "#b07219"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
                 "Size": 122109,
                 "Node": {
                   "Name": "JavaScript",
@@ -1143,7 +1076,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 55944,
+                "Size": 75980,
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
@@ -1158,7 +1091,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 1339,
+                "Size": 1351,
                 "Node": {
                   "Name": "HTML",
                   "Color": "#e34c26"
@@ -1172,14 +1105,14 @@
                 }
               },
               {
-                "Size": 8723,
+                "Size": 8957,
                 "Node": {
                   "Name": "JavaScript",
                   "Color": "#f1e05a"
                 }
               },
               {
-                "Size": 4673,
+                "Size": 4910,
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
@@ -1194,21 +1127,14 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 1376,
-                "Node": {
-                  "Name": "HTML",
-                  "Color": "#e34c26"
-                }
-              },
-              {
-                "Size": 14049,
+                "Size": 14257,
                 "Node": {
                   "Name": "JavaScript",
                   "Color": "#f1e05a"
                 }
               },
               {
-                "Size": 6822,
+                "Size": 7034,
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
@@ -1219,6 +1145,13 @@
                 "Node": {
                   "Name": "CSS",
                   "Color": "#663399"
+                }
+              },
+              {
+                "Size": 1388,
+                "Node": {
+                  "Name": "HTML",
+                  "Color": "#e34c26"
                 }
               }
             ]
