@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1134,
+      "TotalCommitContributions": 1137,
       "TotalIssueContributions": 54,
       "TotalPullRequestContributions": 48,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1286
+        "TotalContributions": 1289
       }
     },
     "Repositories": {
@@ -1105,14 +1105,14 @@
                 }
               },
               {
-                "Size": 8957,
+                "Size": 13799,
                 "Node": {
                   "Name": "JavaScript",
                   "Color": "#f1e05a"
                 }
               },
               {
-                "Size": 4910,
+                "Size": 6733,
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
@@ -1127,14 +1127,14 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 14257,
+                "Size": 17201,
                 "Node": {
                   "Name": "JavaScript",
                   "Color": "#f1e05a"
                 }
               },
               {
-                "Size": 7034,
+                "Size": 9499,
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
