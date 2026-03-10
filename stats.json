@@ -1210,6 +1210,13 @@
                   "Name": "Procfile",
                   "Color": "#3B2F63"
                 }
+              },
+              {
+                "Size": 5015,
+                "Node": {
+                  "Name": "TypeScript",
+                  "Color": "#3178c6"
+                }
               }
             ]
           }
