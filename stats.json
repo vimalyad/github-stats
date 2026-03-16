@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1137,
+      "TotalCommitContributions": 1116,
       "TotalIssueContributions": 54,
       "TotalPullRequestContributions": 48,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1286
+        "TotalContributions": 1265
       }
     },
     "Repositories": {
@@ -1263,7 +1263,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 34232,
+                "Size": 37247,
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
