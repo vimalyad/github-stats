@@ -6,11 +6,11 @@
       "TotalPullRequestContributions": 56,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1312
+        "TotalContributions": 1313
       }
     },
     "Repositories": {
-      "TotalCount": 56,
+      "TotalCount": 57,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -1322,6 +1322,28 @@
           "ForkCount": 0,
           "Languages": {
             "Edges": []
+          }
+        },
+        {
+          "StargazerCount": 0,
+          "ForkCount": 0,
+          "Languages": {
+            "Edges": [
+              {
+                "Size": 11420,
+                "Node": {
+                  "Name": "Python",
+                  "Color": "#3572A5"
+                }
+              },
+              {
+                "Size": 66813,
+                "Node": {
+                  "Name": "Jupyter Notebook",
+                  "Color": "#DA5B0B"
+                }
+              }
+            ]
           }
         }
       ]
