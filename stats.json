@@ -1,16 +1,16 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1153,
+      "TotalCommitContributions": 1148,
       "TotalIssueContributions": 54,
       "TotalPullRequestContributions": 56,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1317
+        "TotalContributions": 1312
       }
     },
     "Repositories": {
-      "TotalCount": 52,
+      "TotalCount": 51,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -366,7 +366,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 623184,
+                "Size": 625307,
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
@@ -1127,13 +1127,6 @@
                 }
               }
             ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": []
           }
         },
         {
