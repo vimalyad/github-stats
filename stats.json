@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1204,
+      "TotalCommitContributions": 1195,
       "TotalIssueContributions": 54,
       "TotalPullRequestContributions": 56,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1371
+        "TotalContributions": 1362
       }
     },
     "Repositories": {
@@ -352,7 +352,7 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 638986,
+                "Size": 642105,
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
