@@ -1,16 +1,16 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1249,
+      "TotalCommitContributions": 1284,
       "TotalIssueContributions": 54,
-      "TotalPullRequestContributions": 56,
+      "TotalPullRequestContributions": 57,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1421
+        "TotalContributions": 1459
       }
     },
     "Repositories": {
-      "TotalCount": 59,
+      "TotalCount": 61,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -1316,6 +1316,36 @@
                 "Node": {
                   "Name": "C",
                   "Color": "#555555"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "StargazerCount": 0,
+          "ForkCount": 0,
+          "Languages": {
+            "Edges": [
+              {
+                "Size": 24335,
+                "Node": {
+                  "Name": "TypeScript",
+                  "Color": "#3178c6"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "StargazerCount": 0,
+          "ForkCount": 0,
+          "Languages": {
+            "Edges": [
+              {
+                "Size": 94699,
+                "Node": {
+                  "Name": "TypeScript",
+                  "Color": "#3178c6"
                 }
               }
             ]
