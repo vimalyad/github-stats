@@ -10,7 +10,7 @@
       }
     },
     "Repositories": {
-      "TotalCount": 63,
+      "TotalCount": 62,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -941,21 +941,6 @@
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
-                "Size": 8842168,
-                "Node": {
-                  "Name": "Jupyter Notebook",
-                  "Color": "#DA5B0B"
                 }
               }
             ]
