@@ -6,11 +6,11 @@
       "TotalPullRequestContributions": 58,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1525
+        "TotalContributions": 1523
       }
     },
     "Repositories": {
-      "TotalCount": 62,
+      "TotalCount": 60,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -982,70 +982,6 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 1958,
-                "Node": {
-                  "Name": "Shell",
-                  "Color": "#89e051"
-                }
-              },
-              {
-                "Size": 71415,
-                "Node": {
-                  "Name": "JavaScript",
-                  "Color": "#f1e05a"
-                }
-              },
-              {
-                "Size": 95333,
-                "Node": {
-                  "Name": "Ruby",
-                  "Color": "#701516"
-                }
-              },
-              {
-                "Size": 709,
-                "Node": {
-                  "Name": "CSS",
-                  "Color": "#663399"
-                }
-              },
-              {
-                "Size": 7043,
-                "Node": {
-                  "Name": "HTML",
-                  "Color": "#e34c26"
-                }
-              },
-              {
-                "Size": 3369,
-                "Node": {
-                  "Name": "SCSS",
-                  "Color": "#c6538c"
-                }
-              },
-              {
-                "Size": 174,
-                "Node": {
-                  "Name": "Procfile",
-                  "Color": "#3B2F63"
-                }
-              },
-              {
-                "Size": 22871,
-                "Node": {
-                  "Name": "TypeScript",
-                  "Color": "#3178c6"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
                 "Size": 81964,
                 "Node": {
                   "Name": "TypeScript",
@@ -1110,28 +1046,6 @@
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
-                "Size": 11420,
-                "Node": {
-                  "Name": "Python",
-                  "Color": "#3572A5"
-                }
-              },
-              {
-                "Size": 66813,
-                "Node": {
-                  "Name": "Jupyter Notebook",
-                  "Color": "#DA5B0B"
                 }
               }
             ]
