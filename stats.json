@@ -1,16 +1,16 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1572,
+      "TotalCommitContributions": 1574,
       "TotalIssueContributions": 54,
-      "TotalPullRequestContributions": 79,
+      "TotalPullRequestContributions": 81,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1772
+        "TotalContributions": 1777
       }
     },
     "Repositories": {
-      "TotalCount": 61,
+      "TotalCount": 62,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -1261,7 +1261,22 @@
           "StargazerCount": 0,
           "ForkCount": 0,
           "Languages": {
-            "Edges": []
+            "Edges": [
+              {
+                "Size": 55,
+                "Node": {
+                  "Name": "CMake",
+                  "Color": "#DA3434"
+                }
+              },
+              {
+                "Size": 265,
+                "Node": {
+                  "Name": "C++",
+                  "Color": "#f34b7d"
+                }
+              }
+            ]
           }
         },
         {
@@ -1313,6 +1328,13 @@
                 }
               }
             ]
+          }
+        },
+        {
+          "StargazerCount": 0,
+          "ForkCount": 0,
+          "Languages": {
+            "Edges": []
           }
         }
       ]
