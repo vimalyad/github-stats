@@ -3,10 +3,10 @@
     "ContributionsCollection": {
       "TotalCommitContributions": 1550,
       "TotalIssueContributions": 54,
-      "TotalPullRequestContributions": 82,
+      "TotalPullRequestContributions": 84,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1752
+        "TotalContributions": 1754
       }
     },
     "Repositories": {
@@ -1263,17 +1263,38 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 55,
+                "Size": 21889,
                 "Node": {
                   "Name": "CMake",
                   "Color": "#DA3434"
                 }
               },
               {
-                "Size": 265,
+                "Size": 30645,
                 "Node": {
                   "Name": "C++",
                   "Color": "#f34b7d"
+                }
+              },
+              {
+                "Size": 27748,
+                "Node": {
+                  "Name": "C",
+                  "Color": "#555555"
+                }
+              },
+              {
+                "Size": 17974,
+                "Node": {
+                  "Name": "Makefile",
+                  "Color": "#427819"
+                }
+              },
+              {
+                "Size": 112,
+                "Node": {
+                  "Name": "TypeScript",
+                  "Color": "#3178c6"
                 }
               }
             ]
