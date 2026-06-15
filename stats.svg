@@ -13,10 +13,10 @@
   </text>
   
   <text x="50" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">1775</tspan>
+    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">1761</tspan>
   </text>
   <text x="50" y="105" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    💻 Commits: <tspan fill="#58a6ff" font-weight="bold">1549</tspan>
+    💻 Commits: <tspan fill="#58a6ff" font-weight="bold">1535</tspan>
   </text>
   <text x="50" y="130" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     🔀 PRs: <tspan fill="#58a6ff" font-weight="bold">105</tspan>
@@ -37,29 +37,29 @@
     TOP LANGUAGES
   </text>
   <text x="50" y="205" fill="#c9d1d9" font-size="12" font-family="monospace">Java</text>
-  <rect x="165" y="195" width="62.4" height="12" fill="#b07219" rx="2"/>
-  <text x="355" y="205" fill="#8b949e" font-size="11" font-family="monospace">34.7%</text>
+  <rect x="165" y="195" width="61.1" height="12" fill="#b07219" rx="2"/>
+  <text x="355" y="205" fill="#8b949e" font-size="11" font-family="monospace">33.9%</text>
   <text x="50" y="223" fill="#c9d1d9" font-size="12" font-family="monospace">Jupyter Not…</text>
-  <rect x="165" y="213" width="55.1" height="12" fill="#DA5B0B" rx="2"/>
-  <text x="355" y="223" fill="#8b949e" font-size="11" font-family="monospace">30.6%</text>
+  <rect x="165" y="213" width="53.9" height="12" fill="#DA5B0B" rx="2"/>
+  <text x="355" y="223" fill="#8b949e" font-size="11" font-family="monospace">29.9%</text>
   <text x="50" y="241" fill="#c9d1d9" font-size="12" font-family="monospace">TypeScript</text>
-  <rect x="165" y="231" width="23.8" height="12" fill="#3178c6" rx="2"/>
-  <text x="355" y="241" fill="#8b949e" font-size="11" font-family="monospace">13.2%</text>
+  <rect x="165" y="231" width="23.2" height="12" fill="#3178c6" rx="2"/>
+  <text x="355" y="241" fill="#8b949e" font-size="11" font-family="monospace">12.9%</text>
   <text x="50" y="259" fill="#c9d1d9" font-size="12" font-family="monospace">JavaScript</text>
-  <rect x="165" y="249" width="16.9" height="12" fill="#f1e05a" rx="2"/>
-  <text x="355" y="259" fill="#8b949e" font-size="11" font-family="monospace">9.4%</text>
+  <rect x="165" y="249" width="16.5" height="12" fill="#f1e05a" rx="2"/>
+  <text x="355" y="259" fill="#8b949e" font-size="11" font-family="monospace">9.2%</text>
   <text x="50" y="277" fill="#c9d1d9" font-size="12" font-family="monospace">Rust</text>
-  <rect x="165" y="267" width="8.3" height="12" fill="#dea584" rx="2"/>
-  <text x="355" y="277" fill="#8b949e" font-size="11" font-family="monospace">4.6%</text>
-  <text x="50" y="295" fill="#c9d1d9" font-size="12" font-family="monospace">Python</text>
-  <rect x="165" y="285" width="5.0" height="12" fill="#3572A5" rx="2"/>
-  <text x="355" y="295" fill="#8b949e" font-size="11" font-family="monospace">2.1%</text>
-  <text x="530" y="205" fill="#c9d1d9" font-size="12" font-family="monospace">HTML</text>
-  <rect x="645" y="195" width="5.0" height="12" fill="#e34c26" rx="2"/>
-  <text x="835" y="205" fill="#8b949e" font-size="11" font-family="monospace">2.0%</text>
+  <rect x="165" y="267" width="8.1" height="12" fill="#dea584" rx="2"/>
+  <text x="355" y="277" fill="#8b949e" font-size="11" font-family="monospace">4.5%</text>
+  <text x="50" y="295" fill="#c9d1d9" font-size="12" font-family="monospace">HTML</text>
+  <rect x="165" y="285" width="7.2" height="12" fill="#e34c26" rx="2"/>
+  <text x="355" y="295" fill="#8b949e" font-size="11" font-family="monospace">4.0%</text>
+  <text x="530" y="205" fill="#c9d1d9" font-size="12" font-family="monospace">Python</text>
+  <rect x="645" y="195" width="5.0" height="12" fill="#3572A5" rx="2"/>
+  <text x="835" y="205" fill="#8b949e" font-size="11" font-family="monospace">2.2%</text>
   <text x="530" y="223" fill="#c9d1d9" font-size="12" font-family="monospace">CSS</text>
   <rect x="645" y="213" width="5.0" height="12" fill="#663399" rx="2"/>
-  <text x="835" y="223" fill="#8b949e" font-size="11" font-family="monospace">1.4%</text>
+  <text x="835" y="223" fill="#8b949e" font-size="11" font-family="monospace">1.3%</text>
   <text x="530" y="241" fill="#c9d1d9" font-size="12" font-family="monospace">C++</text>
   <rect x="645" y="231" width="5.0" height="12" fill="#f34b7d" rx="2"/>
   <text x="835" y="241" fill="#8b949e" font-size="11" font-family="monospace">0.5%</text>

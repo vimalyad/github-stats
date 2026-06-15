@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1549,
+      "TotalCommitContributions": 1535,
       "TotalIssueContributions": 54,
       "TotalPullRequestContributions": 105,
       "TotalPullRequestReviewContributions": 0,
       "ContributionCalendar": {
-        "TotalContributions": 1775
+        "TotalContributions": 1761
       }
     },
     "Repositories": {
@@ -1435,7 +1435,7 @@
                 }
               },
               {
-                "Size": 810,
+                "Size": 159325,
                 "Node": {
                   "Name": "HTML",
                   "Color": "#e34c26"
@@ -1446,6 +1446,13 @@
                 "Node": {
                   "Name": "Java",
                   "Color": "#b07219"
+                }
+              },
+              {
+                "Size": 13032,
+                "Node": {
+                  "Name": "Python",
+                  "Color": "#3572A5"
                 }
               }
             ]
