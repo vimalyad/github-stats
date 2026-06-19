@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1535,
-      "TotalIssueContributions": 54,
-      "TotalPullRequestContributions": 107,
-      "TotalPullRequestReviewContributions": 0,
+      "TotalCommitContributions": 1607,
+      "TotalIssueContributions": 68,
+      "TotalPullRequestContributions": 119,
+      "TotalPullRequestReviewContributions": 11,
       "ContributionCalendar": {
-        "TotalContributions": 1764
+        "TotalContributions": 1873
       }
     },
     "Repositories": {
@@ -1362,7 +1362,43 @@
           "StargazerCount": 0,
           "ForkCount": 3,
           "Languages": {
-            "Edges": []
+            "Edges": [
+              {
+                "Size": 95064,
+                "Node": {
+                  "Name": "Python",
+                  "Color": "#3572A5"
+                }
+              },
+              {
+                "Size": 169372,
+                "Node": {
+                  "Name": "TypeScript",
+                  "Color": "#3178c6"
+                }
+              },
+              {
+                "Size": 727,
+                "Node": {
+                  "Name": "HTML",
+                  "Color": "#e34c26"
+                }
+              },
+              {
+                "Size": 12670,
+                "Node": {
+                  "Name": "CSS",
+                  "Color": "#663399"
+                }
+              },
+              {
+                "Size": 3290,
+                "Node": {
+                  "Name": "Shell",
+                  "Color": "#89e051"
+                }
+              }
+            ]
           }
         },
         {
