@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1912,
+      "TotalCommitContributions": 1925,
       "TotalIssueContributions": 68,
-      "TotalPullRequestContributions": 163,
+      "TotalPullRequestContributions": 167,
       "TotalPullRequestReviewContributions": 11,
       "ContributionCalendar": {
-        "TotalContributions": 2224
+        "TotalContributions": 2241
       }
     },
     "Repositories": {
@@ -1364,14 +1364,14 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 122155,
+                "Size": 124761,
                 "Node": {
                   "Name": "Python",
                   "Color": "#3572A5"
                 }
               },
               {
-                "Size": 208229,
+                "Size": 211106,
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
@@ -1385,14 +1385,14 @@
                 }
               },
               {
-                "Size": 31435,
+                "Size": 33525,
                 "Node": {
                   "Name": "CSS",
                   "Color": "#663399"
                 }
               },
               {
-                "Size": 5473,
+                "Size": 5016,
                 "Node": {
                   "Name": "Shell",
                   "Color": "#89e051"
@@ -1586,38 +1586,17 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 867,
-                "Node": {
-                  "Name": "Dockerfile",
-                  "Color": "#384d54"
-                }
-              },
-              {
-                "Size": 350915,
+                "Size": 275022,
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
                 }
               },
               {
-                "Size": 12548,
+                "Size": 4567,
                 "Node": {
                   "Name": "JavaScript",
                   "Color": "#f1e05a"
-                }
-              },
-              {
-                "Size": 630,
-                "Node": {
-                  "Name": "HTML",
-                  "Color": "#e34c26"
-                }
-              },
-              {
-                "Size": 16782,
-                "Node": {
-                  "Name": "CSS",
-                  "Color": "#663399"
                 }
               }
             ]
