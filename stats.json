@@ -10,7 +10,7 @@
       }
     },
     "Repositories": {
-      "TotalCount": 68,
+      "TotalCount": 67,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -1349,13 +1349,6 @@
                 }
               }
             ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": []
           }
         },
         {
