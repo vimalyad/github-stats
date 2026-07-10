@@ -10,7 +10,7 @@
       }
     },
     "Repositories": {
-      "TotalCount": 67,
+      "TotalCount": 65,
       "Nodes": [
         {
           "StargazerCount": 0,
@@ -1146,28 +1146,6 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 30433,
-                "Node": {
-                  "Name": "Java",
-                  "Color": "#b07219"
-                }
-              },
-              {
-                "Size": 1962,
-                "Node": {
-                  "Name": "CSS",
-                  "Color": "#663399"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
                 "Size": 234,
                 "Node": {
                   "Name": "CMake",
@@ -1186,21 +1164,6 @@
                 "Node": {
                   "Name": "C",
                   "Color": "#555555"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "StargazerCount": 0,
-          "ForkCount": 0,
-          "Languages": {
-            "Edges": [
-              {
-                "Size": 24335,
-                "Node": {
-                  "Name": "TypeScript",
-                  "Color": "#3178c6"
                 }
               }
             ]
