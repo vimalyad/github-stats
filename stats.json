@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1738,
+      "TotalCommitContributions": 1720,
       "TotalIssueContributions": 68,
       "TotalPullRequestContributions": 170,
       "TotalPullRequestReviewContributions": 11,
       "ContributionCalendar": {
-        "TotalContributions": 2053
+        "TotalContributions": 2034
       }
     },
     "Repositories": {
