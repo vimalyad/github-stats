@@ -13,13 +13,13 @@
   </text>
   
   <text x="50" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">1963</tspan>
+    🎯 Contributions: <tspan fill="#58a6ff" font-weight="bold">1894</tspan>
   </text>
   <text x="50" y="105" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    💻 Commits: <tspan fill="#58a6ff" font-weight="bold">1625</tspan>
+    💻 Commits: <tspan fill="#58a6ff" font-weight="bold">1561</tspan>
   </text>
   <text x="50" y="130" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
-    🔀 PRs: <tspan fill="#58a6ff" font-weight="bold">187</tspan>
+    🔀 PRs: <tspan fill="#58a6ff" font-weight="bold">186</tspan>
   </text>
   <text x="530" y="80" fill="#c9d1d9" font-size="15" font-family="Arial, sans-serif">
     📦 Repos: <tspan fill="#58a6ff" font-weight="bold">81</tspan>
@@ -46,7 +46,7 @@
   <rect x="165" y="231" width="31.7" height="12" fill="#00ADD8" rx="2"/>
   <text x="355" y="241" fill="#8b949e" font-size="11" font-family="monospace">17.6%</text>
   <text x="50" y="259" fill="#c9d1d9" font-size="12" font-family="monospace">TypeScript</text>
-  <rect x="165" y="249" width="12.0" height="12" fill="#3178c6" rx="2"/>
+  <rect x="165" y="249" width="12.1" height="12" fill="#3178c6" rx="2"/>
   <text x="355" y="259" fill="#8b949e" font-size="11" font-family="monospace">6.7%</text>
   <text x="50" y="277" fill="#c9d1d9" font-size="12" font-family="monospace">Java</text>
   <rect x="165" y="267" width="5.0" height="12" fill="#b07219" rx="2"/>
