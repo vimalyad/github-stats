@@ -1,12 +1,12 @@
 {
   "User": {
     "ContributionsCollection": {
-      "TotalCommitContributions": 1529,
+      "TotalCommitContributions": 1539,
       "TotalIssueContributions": 68,
       "TotalPullRequestContributions": 184,
       "TotalPullRequestReviewContributions": 11,
       "ContributionCalendar": {
-        "TotalContributions": 1857
+        "TotalContributions": 1867
       }
     },
     "Repositories": {
@@ -857,21 +857,21 @@
           "Languages": {
             "Edges": [
               {
-                "Size": 2868,
+                "Size": 2566,
                 "Node": {
                   "Name": "HTML",
                   "Color": "#e34c26"
                 }
               },
               {
-                "Size": 35723,
+                "Size": 18027,
                 "Node": {
                   "Name": "CSS",
                   "Color": "#663399"
                 }
               },
               {
-                "Size": 164008,
+                "Size": 120542,
                 "Node": {
                   "Name": "TypeScript",
                   "Color": "#3178c6"
